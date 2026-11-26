@@ -91,6 +91,9 @@
   .card li, .featured li { margin-bottom: 6px; }
   .card .tags { margin-top: auto; }
   .win { font-weight: 600; color: var(--text); }
+  .media-link { margin: -4px 0 16px; font-size: 14px; font-weight: 600; }
+  .video { position: relative; aspect-ratio: 16 / 9; margin: 0 0 16px; border-radius: 10px; overflow: hidden; background: var(--bg-soft); }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
   .tags li { background: var(--bg-soft); color: var(--muted); font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 999px; margin: 0; }
   .card.wide { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1.1fr; gap: 28px; }
@@ -251,6 +254,7 @@
             <li>Designed a single-transistor 2.5 GHz amplifier, setting the bias and input/output matching networks from datasheet specs and simulating it in Cadence AWR Microwave Office</li>
             <li>Laid out the PCB, had it fabricated, and measured the board against the simulated response</li>
           </ul>
+          <p class="media-link"><a href="https://www.linkedin.com/in/zachary-bender-40ba8a280/overlay/1747106559266/single-media-viewer/?profileId=ACoAAESAxcsBaKgtORIAqwbo8qyG8EdXJOjQ224" target="_blank" rel="noopener">Photo of the finished board (LinkedIn) ↗</a></p>
           <ul class="tags"><li>RF design</li><li>Cadence AWR</li><li>PCB layout</li><li>SPICE</li><li>Bench testing</li></ul>
         </article>
 
@@ -273,6 +277,7 @@
             <li>Led a 6-person team that modelled a CAT 950 front-loader cabin, with full assembly drawings and a part library</li>
             <li><span class="win">Placed top 5 of 60 teams</span></li>
           </ul>
+          <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/XQWnax5Tpjc" title="SolidWorks CAT 950 cabin project video" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
           <ul class="tags"><li>SolidWorks</li><li>Assemblies</li><li>Team leadership</li></ul>
         </article>
 
@@ -419,8 +424,9 @@
       <h2>About me</h2>
       <div class="about">
         <div>
-          <p>Each of my main projects started from a written requirement and ended with something tested and documented. The amplifier went from datasheet to measured board, and the capstone went from client brief to drawing package.</p>
-          <p>From 2018 to 2024 I worked at 1-800-GOT-JUNK?, first on truck crews and then as operations manager. That job meant working under site safety rules on construction clean-outs and coordinating crews, equipment and client schedules every day.</p>
+          <p>My main projects each started from a written requirement and ended tested and documented. The amplifier went from datasheet to measured board, and the capstone from client brief to drawing package.</p>
+          <p>Before engineering I spent six years at 1-800-GOT-JUNK?, on truck crews and then as operations manager, working under site safety rules and coordinating crews and client schedules daily.</p>
+          <p>I want to build my career on projects that support development in my own community and stay in service for decades. My goal is a role where I can grow as an engineer on that kind of work.</p>
         </div>
         <ul class="interests">
           <li><strong>Travel</strong>Backpacked through Vietnam, Thailand, Japan, Taiwan, Costa Rica, Turkey, Jordan, Egypt, Spain and Mexico</li>
